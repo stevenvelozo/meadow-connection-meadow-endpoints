@@ -10,19 +10,29 @@
 	},
 	"mocha": {
 		"diff": true,
-		"extension": [ "js" ],
+		"extension": [
+			"js"
+		],
 		"package": "./package.json",
 		"reporter": "spec",
 		"slow": "75",
 		"timeout": "5000",
 		"ui": "tdd",
-		"watch-files": [ "source/**/*.js", "test/**/*.js" ]
+		"watch-files": [
+			"source/**/*.js",
+			"test/**/*.js"
+		]
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/stevenvelozo/meadow-connection-meadow-endpoints.git"
 	},
-	"keywords": [ "meadow", "meadow-endpoints", "rest", "connection" ],
+	"keywords": [
+		"meadow",
+		"meadow-endpoints",
+		"rest",
+		"connection"
+	],
 	"author": "Steven Velozo <steven@velozo.com> (http://velozo.com/)",
 	"license": "MIT",
 	"bugs": {
@@ -31,12 +41,12 @@
 	"homepage": "https://github.com/stevenvelozo/meadow-connection-meadow-endpoints",
 	"devDependencies": {
 		"chai": "^4.3.10",
-		"fable": "^3.1.72",
+		"fable": "^3.1.75",
 		"mocha": "^10.2.0"
 	},
 	"dependencies": {
 		"fable-serviceproviderbase": "^3.0.19",
-		"meadow": "^2.0.39",
+		"meadow": "^2.0.41",
 		"simple-get": "^4.0.1"
 	}
 }
